@@ -15,7 +15,8 @@
 
 // auto-generated stubs from esp-flasher-stub v0.3.0
 
-#include "esp_stubs.h"
+// #include "esp_stubs.h"
+#include "../private_include/esp_stubs.h"
 
 static bool stub_running = false;
 

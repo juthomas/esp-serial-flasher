@@ -13,7 +13,8 @@
  * limitations under the License.
  */
 
-#include "slip.h"
+// #include "slip.h"
+#include "../private_include/slip.h"
 #include "esp_loader_io.h"
 
 static const uint8_t DELIMITER = 0xC0;

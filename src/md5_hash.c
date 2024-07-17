@@ -7,7 +7,8 @@
  */
 
 
-#include "md5_hash.h"
+// #include "md5_hash.h"
+#include "../private_include/md5_hash.h"
 #include <stdlib.h>
 #include <string.h>
 

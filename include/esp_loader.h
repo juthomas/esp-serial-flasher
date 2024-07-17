@@ -25,6 +25,8 @@ extern "C" {
 /* Used for backwards compatibility with the previous API */
 #define esp_loader_change_baudrate esp_loader_change_transmission_rate
 
+#define SERIAL_FLASHER_INTERFACE_UART
+#define SERIAL_FLASHER_WRITE_BLOCK_RETRIES 1
 /**
  * Macro which can be used to check the error code,
  * and return in case the code is not ESP_LOADER_SUCCESS.

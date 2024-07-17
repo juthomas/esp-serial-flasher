@@ -13,12 +13,16 @@
  * limitations under the License.
  */
 
-#include "protocol.h"
+// #include "protocol.h"
+#include "../private_include/protocol.h"
 #include "esp_loader_io.h"
 #include "esp_loader.h"
-#include "esp_stubs.h"
-#include "esp_targets.h"
-#include "md5_hash.h"
+// #include "esp_stubs.h"
+#include "../private_include/esp_stubs.h"
+// #include "esp_targets.h"
+#include "../private_include/esp_targets.h"
+// #include "md5_hash.h"
+#include "../private_include/md5_hash.h"
 #include <string.h>
 #include <assert.h>
 

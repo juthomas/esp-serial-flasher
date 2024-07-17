@@ -13,7 +13,8 @@
  * limitations under the License.
  */
 
-#include "esp_targets.h"
+#include "../private_include/esp_targets.h"
+// #include "esp_targets.h"
 #include <stddef.h>
 
 #define MAX_MAGIC_VALUES 2

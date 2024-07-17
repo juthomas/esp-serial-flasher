@@ -13,10 +13,13 @@
  * limitations under the License.
  */
 
-#include "protocol.h"
-#include "protocol_prv.h"
+// #include "protocol.h"
+#include "../private_include/protocol.h"
+// #include "protocol_prv.h"
+#include "../private_include/protocol_prv.h"
 #include "esp_loader_io.h"
-#include "esp_stubs.h"
+// #include "esp_stubs.h"
+#include "../private_include/esp_stubs.h"
 #include <stddef.h>
 #include <string.h>
 
